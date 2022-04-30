@@ -1,0 +1,171 @@
+{
+  "Board": [
+    {
+      "id": 1,
+      "name": "Alpha",
+      "city": "Bengalutu",
+      "address": "12/23,Alpha Road",
+      "capacity": 15,
+      "costPerDay": 2000,
+      "verified": true,
+      "rating": 4.3,
+      "details": {
+        "summary": "Boarding Facilities you leave em we love them.",
+        "pets": 8,
+        "types": [
+          "Dogs",
+          "Cats",
+          "Rabbits"
+        ],
+        "size": "5KG to 30KG",
+        "supervision": "Pets Never will left unattended.",
+        "place": "Free roam of the house.",
+        "sleep": "Wherever they want.",
+        "breaks": "Full Access Outside",
+        "walks": 25,
+        "stay": "House",
+        "areaSize": "Large",
+        "emergency": "Yes"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Beta",
+      "city": "Chennai",
+      "address": "15/3,Beta Road",
+      "capacity": 10,
+      "costPerDay": 1700,
+      "verified": true,
+      "rating": 4.1,
+      "details": {
+        "summary": "Boarding Facilities you leave em we love them.",
+        "pets": 8,
+        "types": [
+          "Dogs",
+          "Cats",
+          "Rabbits"
+        ],
+        "size": "5KG to 30KG",
+        "supervision": "Pets Never will left unattended.",
+        "place": "Free roam of the house.",
+        "sleep": "Wherever they want.",
+        "breaks": "Full Access Outside",
+        "walks": 25,
+        "stay": "House",
+        "areaSize": "Large",
+        "emergency": "Yes"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Charlie",
+      "city": "Chennai",
+      "address": "1/4,Charlie Road",
+      "capacity": 17,
+      "costPerDay": 2500,
+      "verified": true,
+      "rating": 4.4,
+      "details": {
+        "summary": "Boarding Facilities you leave em we love them.",
+        "pets": 8,
+        "types": [
+          "Dogs",
+          "Cats",
+          "Rabbits"
+        ],
+        "size": "5KG to 30KG",
+        "supervision": "Pets Never will left unattended.",
+        "place": "Free roam of the house.",
+        "sleep": "Wherever they want.",
+        "breaks": "Full Access Outside",
+        "walks": 25,
+        "stay": "House",
+        "areaSize": "Large",
+        "emergency": "Yes"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Delta",
+      "city": "Delhi",
+      "address": "6/3,Charlie Road",
+      "capacity": 19,
+      "costPerDay": 3000,
+      "verified": true,
+      "rating": 4,
+      "details": {
+        "summary": "Boarding Facilities you leave em we love them.",
+        "pets": 8,
+        "types": [
+          "Dogs",
+          "Cats",
+          "Rabbits"
+        ],
+        "size": "5KG to 30KG",
+        "supervision": "Pets Never will left unattended.",
+        "place": "Free roam of the house.",
+        "sleep": "Wherever they want.",
+        "breaks": "Full Access Outside",
+        "walks": 25,
+        "stay": "House",
+        "areaSize": "Large",
+        "emergency": "Yes"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Eclaire",
+      "city": "Hyderbad",
+      "address": "10th Ring,Eclaire Road",
+      "capacity": 14,
+      "costPerDay": 2000,
+      "verified": true,
+      "rating": 4.6,
+      "details": {
+        "summary": "Boarding Facilities you leave em we love them.",
+        "pets": 8,
+        "types": [
+          "Dogs",
+          "Cats",
+          "Rabbits"
+        ],
+        "size": "5KG to 30KG",
+        "supervision": "Pets Never will left unattended.",
+        "place": "Free roam of the house.",
+        "sleep": "Wherever they want.",
+        "breaks": "Full Access Outside",
+        "walks": 25,
+        "stay": "House",
+        "areaSize": "Large",
+        "emergency": "Yes"
+      }
+    },
+    {
+      "name": "Wiggle Bubble",
+      "city": "Vadodara",
+      "address": "12/3 line,15th cross, Bubble road",
+      "capacity": 17,
+      "costPerDay": 2000,
+      "verified": "True",
+      "rating": 4.3,
+      "details": {
+        "summary": "Best pet service center",
+        "pets": 8,
+        "types": [
+          "Cats",
+          "Dogs"
+        ],
+        "size": "10-20kg",
+        "supervision": "Pets will never be left unattended",
+        "place": "Free roam of the house",
+        "sleep": "Anywhere",
+        "breaks": "Full access Outside",
+        "walks": 30,
+        "stay": "House",
+        "areaSize": "Medium",
+        "emergency": "Yes"
+      },
+      "id": 6
+    }
+  ]
+}
