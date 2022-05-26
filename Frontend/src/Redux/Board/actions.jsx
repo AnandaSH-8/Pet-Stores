@@ -1,4 +1,4 @@
-import { cookieStorageManager } from "@chakra-ui/react";
+
 import axios from "axios";
 
 export const ALLBOARDS = "ALLBOARDS";
@@ -28,19 +28,19 @@ export const getCities = () =>(dispatch)=>{
     
 }
 
-export const AllBoards = (ct) =>(dispatch)=>{
+export const AllBoards = (ct,page) =>(dispatch)=>{
 
     let city = ct || 0;
 
-    axios.get(`https://bos-first-site-api.herokuapp.com/boards?city=${city}`)
+    axios.get(`https://bos-first-site-api.herokuapp.com/boards?city=${city}&page=${page}`)
     .then(({data})=>{
         dispatch(allBoards(data))
     })
 }
 
-export const allBoardslist = (page,cost,rating,verified) =>(dispatch)=>{
+export const allBoardslist = (cost,rating,verified) =>(dispatch)=>{
     
-    axios.get(`https://bos-first-site-api.herokuapp.com/boards?page=${page}&cost=${cost}&rating=${rating}&verified=${verified}&city=0`)
+    axios.get(`https://bos-first-site-api.herokuapp.com/boards?cost=${cost}&rating=${rating}&verified=${verified}&city=0`)
     .then(({data})=>{
         dispatch(allBoards(data))
     })

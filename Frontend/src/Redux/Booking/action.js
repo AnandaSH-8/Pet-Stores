@@ -31,7 +31,7 @@ export const getBookings = () => (dispatch)=>{
 export const statusUpdate = (id,decision,pet,owner) =>(dispatch)=>{
 
     let status = {status:decision?false:true}
-    console.log({status},"Status")
+    
     axios.put(`https://bos-first-site-api.herokuapp.com/bookings/${id}`,status)
     .then(({data})=>{
         dispatch(PetStatus(pet,owner,decision))
@@ -41,9 +41,10 @@ export const statusUpdate = (id,decision,pet,owner) =>(dispatch)=>{
 const PetStatus = (pet,owner,decision) =>(dispatch)=>{
 
     let obj = {owner,booked:decision?false:true}
-    console.log(obj,"Status")
+    alert("Please Wait...")
     axios.put(`https://bos-first-site-api.herokuapp.com/pets/${pet}`,obj)
     .then(({data})=>{
+        alert("Processing...")
         alert(data.message)
         dispatch(getBookings())
     })

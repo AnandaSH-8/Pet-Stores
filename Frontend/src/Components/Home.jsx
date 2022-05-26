@@ -25,22 +25,16 @@ export const Home = () =>{
 
     useEffect(()=>{
 
-        dispatch(allBoardslist(page,cost,rating,verified))
-    },[page,cost,rating,verified])
+        dispatch(allBoardslist(cost,rating,verified))
+    },[cost,rating,verified])
 
     useEffect(()=>{
-        dispatch(AllBoards(city))
-    },[city])
+        dispatch(AllBoards(city,page))
+    },[city,page])
 
     useEffect(()=>{
         dispatch(getCities())
     },[])
-
-    //  console.log(isAuth)
-    // if(isAuth == false)
-    // {
-    //     return <Navigate to={"/signUpIn"}/>
-    // }
 
     return <div>
         <div className="buttonsGroups">

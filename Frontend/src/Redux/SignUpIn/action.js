@@ -21,7 +21,17 @@ export const logIn = (details) => (dispatch)=>{
     axios.post(`https://bos-first-site-api.herokuapp.com/login`,details)
     .then(({data})=>{
         alert("Please Wait...")
-        dispatch(authenticate(data.token))
+
+        if(data.message == "Login SuccessFull")
+        {
+            dispatch(authenticate(data.token))
+        }
+        else{
+            alert(data.message)
+        }
+    }) 
+    .catch((err)=>{
+        alert("Incorrect Details")
     })
 }
 

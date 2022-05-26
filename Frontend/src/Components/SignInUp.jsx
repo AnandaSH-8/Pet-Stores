@@ -37,7 +37,7 @@ export const SignInUp = () =>{
         return <Navigate to={"/"}/>
     }
 
-    return <div style={{display:"flex",justifyContent:"space-around"}}>
+    return <div style={{display:"flex",justifyContent:"space-around",marginTop:"2%"}}>
         <div className='signInUp'>
         <h1>Register</h1>
     
