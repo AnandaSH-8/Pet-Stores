@@ -32,8 +32,8 @@
 https://pets-stores.vercel.app/
 ```
 
-Try as Admin:
-username: anandsh
-password: anandsholla
+##### Try as Admin:
+###### username: <kbd>anandsh</kbd>
+###### password: <kbd>anandsholla</kbd>
 
 ## Thanks for Reading.
