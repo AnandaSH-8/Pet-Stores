@@ -32,4 +32,8 @@
 https://pets-stores.vercel.app/
 ```
 
+Try as Admin:
+username: anandsh
+password: anandsholla
+
 ## Thanks for Reading.
